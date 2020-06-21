@@ -1,5 +1,14 @@
 /* Base */
+body {
+  line-height: 1.7;
+  color: #CCD6F6 !important;
+  font-weight: 300;
+  font-size: 1rem;
+  background: #0a192f;;
+  font-family: "Source Serif Pro", serif; }
+
 html {
+
   overflow-x: hidden; }
 
   .text-silver {
@@ -20,7 +29,7 @@ html {
       font-family: "SF Mono";
       }
 
-      
+          
 
 .font-size-10 {
   font-size: 10px; }
@@ -227,13 +236,7 @@ html {
     color: #fff;
     background: #3b4eda; }
 
-body {
-  line-height: 1.7;
-  color: #6c7b95 !important;
-  font-weight: 300;
-  font-size: 1rem;
-  background: #fff;
-  font-family: "Source Serif Pro", serif; }
+
 
 ::-moz-selection {
   background: #000;
@@ -777,7 +780,7 @@ h1, h2, h3, h4, h5,
         padding-top: 30px !important;
         padding-bottom: 30px !important; } }
 
-/* Blocks */
+/* Blocks cover */
 .site-section-cover {
   position: relative;
   background-size: cover;
@@ -789,9 +792,9 @@ h1, h2, h3, h4, h5,
     position: relative;
     z-index: 2; }
   .site-section-cover,
-  .site-section-cover .container > .row {
+  .site-section-cover .container> .row {
     height: calc(100vh - 196px);
-    min-height: 677px; }
+    min-height: 700px; }
     @media (max-width: 991.98px) {
       .site-section-cover,
       .site-section-cover .container > .row {
@@ -827,6 +830,113 @@ h1, h2, h3, h4, h5,
   .site-section-cover p {
     font-size: 18px;
     color: rgba(255, 255, 255, 0.6); }
+
+/* Blocks about */
+.site-section-about {
+  background: #0a192f; 
+  }
+
+.site-section-about .container { 
+  padding-bottom: 200px;
+}
+
+.site-section-about img{
+position: relative;
+  border-radius: 10px;
+  width:350px; 
+}
+    @media (max-width: 991.98px) {
+      .m-mobile{
+        margin-top:30px;
+      }
+      .site-section-about .container {
+      padding-bottom: 0px;
+       } 
+       
+      }
+    
+/* Blocks about */
+
+
+
+/* Blocks features project */
+.site-section-features {
+  background: #0a192f; }
+
+.site-section-features .container {
+  padding-bottom: 200px;
+}
+.row-tittle{
+  margin-bottom: 70px;
+}
+
+.site-section-features .container > .row {
+  margin-bottom: 120px; }
+
+
+.site-section-features img{
+  position: relative;
+  border-radius: 5px;
+  width:600px;
+}
+    @media (max-width: 991.98px) {
+      .m-mobile{
+        margin-top:30px;
+      }
+      .site-section-features .container {
+        padding-bottom: 150px;
+        margin-top: 200px;
+       } 
+
+       .row-tittle{
+        margin-bottom: 20px;
+      }
+
+    .site-section-features .container > .row {
+      margin-bottom: 30px;
+      }
+    }
+/* Blocks features project */
+
+/* Blocks LOT project */
+.site-section-lot {
+  background: #0a192f;
+margin-bottom: 300px ; }
+
+.site-section-lot.container {
+  padding-bottom: 200px;
+}
+.row-tittle{
+  margin-bottom: 70px;
+}
+
+.site-section-lot.container > .row {
+  margin-bottom: 120px; }
+
+
+    @media (max-width: 991.98px) {
+      .site-section-lot {
+        background: #0a192f;
+       margin-bottom: 100px ; }
+       
+      .m-mobile{
+        margin-top:30px;
+      }
+      .site-section-lot.container {
+        padding-bottom: 150px;
+        margin-top: 100px;
+       } 
+
+       .row-tittle{
+        margin-bottom: 20px;
+      }
+
+    .site-section-lot.container > .row {
+      margin-bottom: 30px;
+      }
+    }
+/* Blocks LOT project */
+  
 
 .btn-video_38929 {
   display: inline-block;
@@ -966,22 +1076,23 @@ h1, h2, h3, h4, h5,
 .post-entry-1 {
   -webkit-box-shadow: 0 4px 20px -8px rgba(0, 0, 0, 0.3);
   box-shadow: 0 4px 20px -8px rgba(0, 0, 0, 0.3);
-  background: #fff; }
+  background: #172A45; 
+  border-radius: 5px;
+height: 350px;}
   .post-entry-1 .post-entry-1-contents {
-    padding: 20px; }
-    .post-entry-1 .post-entry-1-contents h2 {
-      font-size: 18px;
+    padding: 30px; }
+    .post-entry-1 .post-entry-1-contents h4 {
       margin-bottom: 20px; }
-      .post-entry-1 .post-entry-1-contents h2 a {
-        color: #000; }
-        .post-entry-1 .post-entry-1-contents h2 a:hover {
-          color: #3b4eda; }
+      .post-entry-1 .post-entry-1-contents h4 a {
+        color: #fff; }
+        .post-entry-1 .post-entry-1-contents h4 a:hover {
+          color:#64ffda !important; }
   .post-entry-1.person-1 {
     text-align: center; }
     .post-entry-1.person-1 img {
       width: 90px;
       border-radius: 50%;
-      margin: 0 auto -45px auto; }
+      }
     .post-entry-1.person-1 .post-entry-1-contents {
       padding-top: 4rem; }
 
